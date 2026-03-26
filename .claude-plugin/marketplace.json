@@ -1,0 +1,36 @@
+{
+  "name": "slidehub-marketplace",
+  "owner": {
+    "name": "SlideHub",
+    "email": "success@slidehub.com"
+  },
+  "metadata": {
+    "description": "Official SlideHub plugins for Claude Code — AI-powered presentation management, slide search, and generation.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "slidehub",
+      "source": "./plugins/slidehub",
+      "description": "Connect Claude Code to your SlideHub slide library. Search slides, generate presentations from text, fill placeholders, combine slides, and more — all from your CLI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "SlideHub",
+        "email": "success@slidehub.com"
+      },
+      "homepage": "https://help.slidehub.io",
+      "license": "Proprietary",
+      "keywords": [
+        "presentations",
+        "slides",
+        "powerpoint",
+        "pptx",
+        "slidehub",
+        "ai",
+        "generation",
+        "mcp"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

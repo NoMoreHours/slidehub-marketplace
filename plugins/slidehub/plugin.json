@@ -1,0 +1,10 @@
+{
+  "name": "slidehub",
+  "description": "SlideHub MCP server — search, generate, and manage professional presentations powered by your company's slide library.",
+  "version": "1.0.0",
+  "mcpServers": {
+    "slidehub": {
+      "url": "https://ppt.slidehub.io/api/mcp/slidehub"
+    }
+  }
+}
