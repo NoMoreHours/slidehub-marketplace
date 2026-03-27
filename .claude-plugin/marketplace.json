@@ -1,7 +1,7 @@
 {
   "name": "slidehub-marketplace",
   "owner": {
-    "name": "SlideHub",
+    "name": "SlideHub ApS",
     "email": "success@slidehub.com"
   },
   "metadata": {
@@ -12,13 +12,14 @@
     {
       "name": "slidehub",
       "source": "./plugins/slidehub",
-      "description": "Connect Claude Code to your SlideHub slide library. Search slides, generate presentations from text, fill placeholders, combine slides, and more — all from your CLI.",
+      "description": "Connect Claude to your SlideHub slide library. Search slides, generate slides from text, fill placeholders, combine slides, and more — all from within Claude.",
       "version": "1.0.0",
       "author": {
         "name": "SlideHub",
         "email": "success@slidehub.com"
       },
-      "homepage": "https://help.slidehub.io",
+      "homepage": "https://slidehub.com",
+      "repository": "https://github.com/NoMoreHours/slidehub-marketplace",
       "license": "Proprietary",
       "keywords": [
         "presentations",
