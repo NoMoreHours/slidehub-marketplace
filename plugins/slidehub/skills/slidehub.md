@@ -211,7 +211,7 @@ Users may ask about how their content is organized:
 
 ## Error Handling and Edge Cases
 
-**Generation takes too long:** After 10 polls of `check_job_status`, stop polling and inform the user. Do NOT try to diagnose or work around it.
+**Generation takes too long:** Several jobs can take up to 120 seconds. Thus, even after 100 polls of `check_job_status`, do NOT stop polling and inform the user. Do NOT try to diagnose or work around it.
 
 **Search returns nothing:** Try `ai_chat_asset_search` as a fallback. If still nothing, proceed to generation. Frame it positively: "I didn't find existing slides on this topic, so let me generate a fresh one."
 
